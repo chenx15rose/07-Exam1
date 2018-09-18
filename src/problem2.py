@@ -464,18 +464,18 @@ def problem1c(m):
              11 13 17 19,
            and 11 + 13 + 17 + 19 = 60.
      """
-    n = problem2b(m+1, m + 10, 2) - problem2b(m+1, m + 10, 3)
+    n = (9*m +45) - problem2b(m+1, m + 9, 3)
     return n
 
     ############################################################################
-    # TODO: 4. Implement and test this function.  See the IMPORTANT NOTE below!
+    # DONE: 4. Implement and test this function.  See the IMPORTANT NOTE below!
     #          Tests have been written for you (above).
     ############################################################################
-    # TODO (continued): IMPORTANT NOTE:
-    # TODO (continued):   This problem is 1 point (of 100) on the exam.
-    # TODO (continued)    Do not spend more than a few minutes on it.
-    # TODO (continued)    You get   NO credit   if your solution is more
-    # TODO (continued)    than 3 lines of code (and it can be done in 1 line).
+    # DONE (continued): IMPORTANT NOTE:
+    # DONE (continued):   This problem is 1 point (of 100) on the exam.
+    # DONE (continued)    Do not spend more than a few minutes on it.
+    # DONE (continued)    You get   NO credit   if your solution is more
+    # DONE (continued)    than 3 lines of code (and it can be done in 1 line).
     ############################################################################
 
 
